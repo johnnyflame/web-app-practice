@@ -1,0 +1,11 @@
+body {
+    background: linen;
+    width: 500px;
+    margin: 200px auto;
+}
+
+div {
+    border: 5px solid maroon;
+    text-align: centre;
+    padding: 5px;
+}
