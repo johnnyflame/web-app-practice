@@ -9,3 +9,20 @@ div {
     text-align: centre;
     padding: 5px;
 }
+
+p {
+    border: 2px dashed blue;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: tomato;
+}
+
+a:hover {
+    text-decoration: underline;
+}

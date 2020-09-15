@@ -55,6 +55,10 @@ footer .sitemap {
     width: 285px;
 }
 
+* {
+    font-family: Droid-sans;
+}
+
 h1,
 h2,
 h3,
