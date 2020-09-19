@@ -1,0 +1,26 @@
+body {
+    background: #f9efb4;
+}
+
+header,
+main {
+    overflow: auto;
+}
+
+header .p {
+    float: right;
+    width: 285px;
+}
+
+.comments p:nth-child(even) {
+    background: lavender;
+}
+
+.comments p:nth-child(odd) {
+    background: gainsboro;
+}
+
+main .comments {
+    float: right;
+    width: 285px;
+}

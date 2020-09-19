@@ -1,5 +1,5 @@
 body {
-    background: #f9e933;
+    background: #f9efb4;
 }
 
 header,
@@ -9,7 +9,7 @@ footer {
 }
 
 main {
-    background: white;
+    background: rgb(26, 11, 11);
 }
 
 header {
