@@ -42,6 +42,36 @@ main {
     margin-bottom: 10px;
 }
 
+.comment-input input {
+    width: 80%;
+    height: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.comment-input button {
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    color: ivory;
+    background: olivedrab;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+.comments {
+    float: right;
+    width: 570px;
+}
+
+.comments p {
+    padding: 5px;
+    margin-bottom: 10px;
+    /* this makes the edges round */
+    border-radius: 5px;
+}
+
 .comments p:nth-child(even) {
     background: lavender;
 }
@@ -50,7 +80,8 @@ main {
     background: gainsboro;
 }
 
-main .comments {
-    float: right;
-    width: 285px;
+footer {
+    font-size: smaller;
+    margin-top: 5px;
+    clear: both;
 }
