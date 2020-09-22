@@ -1,5 +1,5 @@
 body {
-    background: #f9efb4;
+    background: yellow;
 }
 
 header,
@@ -9,7 +9,7 @@ footer {
 }
 
 main {
-    background: rgb(26, 11, 11);
+    background: white;
 }
 
 header {
@@ -64,4 +64,18 @@ h2,
 h3,
 h4 {
     font-family: Ubuntu;
+}
+
+.tabs a span {
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 5px;
+}
+
+.tabs a span.active {
+    background: #eee;
 }
